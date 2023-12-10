@@ -1,0 +1,55 @@
+---
+title: "Zusammenfassung der Vorlesung IT-Infrastruktur"
+subtitle: "Winteremester 2023/24"
+author: Richard Riesmeier
+lang: de
+date: today
+date-format: "D. MMMM YYYY"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+fontsize: 12pt
+editor: visual
+---
+
+# Vorwort
+
+::: callout-note
+Im Nachfolgenden findet sich eine Zusammenfassung der Vorlesung "IT-Infrastruktur" welche ich im Wintersemester 2023/24 im Rahmen meines Wirtschaftsinformatikstudiums an der Fachhochschule Dortmund besucht habe.</br>
+Sämtliche verwendete Quellen beziehen sich auf die Vorlesungsunterlagen von meinem Dozenten Prof. Dr. Marcel Hoffmann sofern nicht anders markiert.
+:::
+
+# Themenübersicht
+
+1. Vorlesung 01
+2. Vorlesung 02
+3. Vorlesung 03
+4. Vorlesung 04
+
+# Vorlesung 04: 
+
+Im Nachfolgenden findet sich die Zusammenfassung der Vorlesung 4 mit dem Thema "Arhitektur von Rechnersystemen und ihre Bausteine"
+
+## Ebenenmodell eines Rechnersystems
+
+![Grafik aus der Vorlesung](./images/GRafik Ebenenmodell eines Rechnersystems.png)
+
+Aus dieser Grafik geht die Struktur eines Computers hervor. <br>
+Die <span style="color: green;">ISA(Instruction Set Architecture) Ebene</span> stellt eine Menge von Befehlen bereit, welche auf dem Rechnersystem ausgeführt werden können. Die ISA-Ebene ist die erste Ebne auf der symbolisch repräsentierter Programmcode erzeugt wird.
+
+Die Mikroarchitektur stellt Komponenten, wie register, ALUs, Taktgeber, Busse und vieles mehr bereit, um Maschinenbefehle auszuführen.
+
+Als theoretische Grundlage eines Rechnersystems bildet die Boole´sche Algebra bzw.  die Aussagenlogik. In ihr können logische Funktionen abgebildet werden.
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
