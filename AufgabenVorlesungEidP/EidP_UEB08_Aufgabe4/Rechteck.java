@@ -7,8 +7,8 @@ public class Rechteck {
     private double seitenlaengeY;
 
     //constructor
-    Rechteck(Punkt2D linksUnten, double x, double y) {
-        this.linkeuntereEcke = linksUnten;
+    Rechteck(double e_x, double e_y, double x, double y) {
+        this.linkeuntereEcke = new Punkt2D(e_x,e_y);
         this.seitenlaengeX = x;
         this.seitenlaengeY = y;
     }
